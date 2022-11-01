@@ -10,4 +10,5 @@ return require'packer'.startup(function()
     use 'saadparwaiz1/cmp_luasnip' -- Snippets source for nvim-cmp
     use 'L3MON4D3/LuaSnip' -- Snippets plugin
     use 'onsails/lspkind.nvim'
+    use 'williamboman/mason.nvim' -- mason install lsp
 end)

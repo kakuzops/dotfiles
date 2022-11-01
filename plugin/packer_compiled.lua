@@ -94,6 +94,11 @@ _G.packer_plugins = {
     path = "/home/leonard9/.local/share/nvim/site/pack/packer/start/lspkind.nvim",
     url = "https://github.com/onsails/lspkind.nvim"
   },
+  ["mason.nvim"] = {
+    loaded = true,
+    path = "/home/leonard9/.local/share/nvim/site/pack/packer/start/mason.nvim",
+    url = "https://github.com/williamboman/mason.nvim"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/leonard9/.local/share/nvim/site/pack/packer/start/nvim-cmp",

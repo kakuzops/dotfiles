@@ -1,4 +1,5 @@
 require('lspconfig').pyright.setup{}
+require('lspconfig').gopls.setup{}
 require('settings')
  require('mappings')
  require('packer-config')
@@ -6,3 +7,4 @@ require('settings')
  require('nvim-tree-config')
  require('lsp-config.language-servers')
  require('lsp-config.nvim-cmp')
+ require('mason-config')
