@@ -11,4 +11,12 @@ return require'packer'.startup(function()
     use 'L3MON4D3/LuaSnip' -- Snippets plugin
     use 'onsails/lspkind.nvim'
     use 'williamboman/mason.nvim' -- mason install lsp
+    use 'hrsh7th/cmp-buffer'
+
+    use {
+        'nvim-treesitter/nvim-treesitter',
+        run = ':TSUpdate'
+    }
+    --lualine
+    use 'nvim-lualine/lualine.nvim'
 end)
