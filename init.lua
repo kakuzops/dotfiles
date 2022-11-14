@@ -1,8 +1,4 @@
- require('lspconfig').pyright.setup{}
- require('lspconfig').gopls.setup{}
- require('lspconfig').elixirls.setup{
-     cmd = { "/home/leonard9/elixir-ls/language_server.sh" }
- }
+
  require('settings')
  require('mappings')
  require('packer-config')
@@ -13,3 +9,8 @@
  require('mason-config')
  require('lualine-config')
  require('tresitter-config')
+ require('lspconfig').pyright.setup{}
+ require('lspconfig').gopls.setup{}
+ require('lspconfig').elixirls.setup{
+     cmd = { "/home/leonard9/elixir-ls/language_server.sh" }
+ }
